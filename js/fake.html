@@ -1,0 +1,21 @@
+let s1 = document.querySelector(".s1");
+let student1 = {
+    name: "Denisha",
+    age: 18,
+    contact : "1234567890",
+    enail : "j@j.com",
+    education : "bca",
+    address : "kathmandu",
+    hobbies : ["singing","dancing","reading"],
+    greeting : () => {
+        return "Hello World";
+    }
+};
+s1.innerHTML = "Name: " + " " + student1.name + "<br> <br>" ;
+s1.innerHTML += "Age: " + " " + student1.age + "<br> <br>" ;
+s1.innerHTML += "Contact: " + " " + student1.contact + "<br> <br>" ;
+s1.innerHTML += "Email: " + " " + student1.enail + "<br> <br>" ;
+s1.innerHTML += "Education: " + " " + student1.education + "<br> <br>" ;
+s1.innerHTML += "Address: " + " " + student1.address + "<br> <br>" ;
+s1.innerHTML += "Greeting: " + " " + student1.greeting() + "<br> <br>" ;
+s1.innerHTML += "Hobbies: " + " " + student1.hobbies + "<br> <br>" ;
